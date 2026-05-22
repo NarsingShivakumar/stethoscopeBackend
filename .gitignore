@@ -1,0 +1,24 @@
+# Bytecode and C extensions
+__pycache__/
+*.py[cod]
+*.so
+
+# Virtual Environments and Packages
+venv/
+.venv/
+env/
+.env
+build/
+dist/
+*.egg-info/
+__pypackages__/
+
+# IDEs and Tools
+.idea/
+.vscode/
+.pytest_cache/
+.coverage
+*.log
+
+# Project-specific
+.spyproject
