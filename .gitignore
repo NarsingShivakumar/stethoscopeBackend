@@ -1,24 +1,120 @@
-# Bytecode and C extensions
+# Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
+*$py.class
+
+# C extensions
 *.so
 
-# Virtual Environments and Packages
-venv/
-.venv/
-env/
-.env
+# Distribution / packaging
+.Python
 build/
+develop-eggs/
 dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
 *.egg-info/
-__pypackages__/
+.installed.cfg
+*.egg
+MANIFEST
 
-# IDEs and Tools
-.idea/
-.vscode/
-.pytest_cache/
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
 .coverage
+.coverage.*
+.cache
+pytest_cache/
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# PyInstaller
+*.manifest
+*.spec
+
+# Environments
+.env
+.venv
+venv/
+ENV/
+env/
+
+# IDEs and editors
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# mypy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# pyright
+.pyright/
+
+# Ruff
+.ruff_cache/
+
+# pylint
+.pylint.d/
+
+# Logs
 *.log
 
-# Project-specific
-.spyproject
+# OS files
+.DS_Store
+Thumbs.db
+
+# SQLite database
+*.sqlite3
+db.sqlite3
+
+# FastAPI / Flask / Django
+instance/
+.webassets-cache
+
+# Streamlit
+.streamlit/secrets.toml
+
+# Poetry
+poetry.lock
+
+# Pipenv
+Pipfile.lock
+
+# pyenv
+.python-version
+
+# Temporary files
+tmp/
+temp/
+*.tmp
+
+# Docker
+docker-compose.override.yml
+
+# Secrets / keys
+*.pem
+*.key
+secrets.json
+credentials.json
