@@ -4,12 +4,3 @@ gunicorn==22.0.0
 numpy==1.26.4
 scipy==1.13.0
 soundfile==0.12.1
-fastapi==0.111.0
-uvicorn[standard]==0.29.0
-python-multipart==0.0.9
-speechbrain==1.0.0
-torch==2.2.2
-torchaudio==2.2.2
-resampy==0.4.3
-scikit-learn==1.4.2
-librosa==0.10.2

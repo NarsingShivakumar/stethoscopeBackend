@@ -46,17 +46,6 @@ class Config:
     MIN_DURATION_SEC = 0.5
     MAX_DURATION_SEC = 45.0
 
-    # ── Noise injection defaults ──────────────────────────────────────────────
-    DEFAULT_NOISE_TYPE = "white"   # white | pink | brown | voice
-    DEFAULT_SNR_DB     = 10.0      # dB  (positive = signal louder than noise)
-    MIN_SNR_DB         = -20.0
-    MAX_SNR_DB         = 60.0
-
-    # ── Heart detection thresholds (matching noise_service.py) ────────────────
-    HEART_DETECT_ENERGY_THRESHOLD  = 0.08
-    HEART_DETECT_CONFIDENCE_MIN    = 0.25
-    HEART_DETECT_AUTOCORR_MIN_PEAK = 0.10
-    
     # ── Flask ─────────────────────────────────────────────────────────────────
     PORT        = int(os.environ.get("PORT", 5000))
     FLASK_DEBUG = os.environ.get("FLASK_DEBUG", "true").lower() == "true"
